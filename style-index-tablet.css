@@ -1,0 +1,268 @@
+@media screen and (max-width:959px) and (min-width:560px) {
+
+    body {
+    	margin: 0px;
+    }
+
+    .container {
+    	padding: 7% 12%;
+    }
+
+    /******ヘッダー*****/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+    	width: 100%;
+    	position: fixed;
+    	top: 0;
+    	margin: 0px;
+    	padding: 10px 0px;
+    	height: 80px;
+    	background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .header-left {
+        margin: 16px 0px 16px 40px;
+    }
+
+    .header-logo {
+    	color: white;
+    	text-decoration: none;
+    }
+
+    .header-right {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-text {
+        display: block;
+    	color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .header-right ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header-right li {
+    	list-style: none;
+    }
+
+    .header-content:hover {
+    	color: #FF9933;
+    }
+
+    .header-btn {
+    	background-color: #FF9933;
+    }
+
+    .header-btn:hover {
+        text-decoration: none;
+    	background-color: rgba(255, 127 ,0 ,0.7);
+    }
+
+    /*****メイン*****/
+
+    /****ホーム*****/
+    .home {
+    	height: auto;
+    	font-size: 30px;
+    	color: white;
+    	text-align: center;
+    	background-image: url("img/home.jpg");
+    	background-size: cover;
+    }
+
+    .home h1 {
+    	margin: 0px;
+    	padding-top: 25%;
+    }
+
+    .home p {
+    	margin: 0;
+    	padding: 5% 0 20% 0;
+    	opacity: 0.7;
+    }
+    /****イントロダクション****/
+    .introduction {
+    	height: auto;
+    	margin: 0px;
+    	background-color: #FF9933;
+    }
+
+    .introduction-container {
+    	display: flex;
+    	flex-flow: row wrap;
+    }
+
+    .introduction-content {
+    	width: 100%;
+    }
+
+    .introduction-title {
+    	width: 100%;
+    	margin: 0px;
+    	color: black;
+    	display: inline-block;
+    }
+
+    .introduction-text {
+    	display: flex;
+    	flex-direction: row;
+    	margin: 10px 0px;
+    	width: 100%;
+    	display: inline-block;
+    }
+
+    .fa-arrow-right {
+    	float: left;
+    	display: inline-block;
+    	width: 10%;
+    }
+
+    .introduction-text p {
+    	margin: 0px;
+    	display: inline-block;
+    	width: 90%;
+    }
+
+    .img-office-photo {
+    	display: inline-block;
+    	width: 50%;
+    }
+    /***アバウト***/
+    .about {
+
+    }
+
+    .contents-title {
+    	text-align: center;
+    }
+
+    .contents-container {
+    	display: flex;
+    	flex-flow: row wrap;
+    	justify-content: space-around;
+    }
+
+    .content {
+    	width: 45%;
+    	margin-bottom: 10%;
+    }
+
+    .content img {
+    	width: 100%;
+    }
+
+    /***infomation***/
+    .info {
+    	text-align: center;
+    	background-image: url("img/info.jpg");
+    	background-size: cover;
+    	color: white;
+    }
+
+    .btn {
+    	display: inline-block;
+    	text-align: center;
+    	margin: 30px 0px;
+    	padding: 7% 12%;
+    	background-color: #FF9933;
+    	color: white;
+    	font-size: 20px;
+    }
+
+
+    /***news***/
+    .news {
+    	background-color: #FF9933;
+    }
+
+    .news-title {
+    	text-align: center;
+    }
+
+    .news-container {
+    	display: flex;
+    	flex-flow: row wrap;
+    	justify-content: space-around;
+    }
+
+    .news-content {
+    	float: left;
+    	width: 45%;
+    	margin-bottom: 10%;
+    }
+
+    .news-content img {
+    	float: left;
+    	margin-right: 5%;
+    	width: 35%;
+    }
+
+    .news-content i {
+    	width: 60%;
+    	display: inline-block;
+    }
+
+
+    /***footer***/
+    footer {
+    	background-image: url("img/footer.jpg");
+    	background-size: cover;
+    }
+
+    .footer-container {
+    	padding: 50px 100px;
+    	height: 100px;
+    }
+
+    .footer-logo {
+    	float: left;
+    	color: white;
+    	text-decoration: none;
+    	margin: 10px 0px 5px 40px;
+    }
+
+    .footer-logo:hover {
+    	border-bottom: 3px solid;
+    	border-bottom-color: #FF9933;
+    }
+
+    .footer-right {
+
+    }
+
+    .footer-text {
+    	color: white;
+    	text-decoration: none;
+    }
+
+    .footer-right ul {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    }
+
+    .footer-right li {
+    	font-size: 12px;
+    	list-style: none;
+    }
+
+    .footer-right li:hover {
+    	border-bottom: 3px solid;
+    	border-bottom-color: #FF9933;
+    	color: #FF9933;
+    }
+
+
+}
